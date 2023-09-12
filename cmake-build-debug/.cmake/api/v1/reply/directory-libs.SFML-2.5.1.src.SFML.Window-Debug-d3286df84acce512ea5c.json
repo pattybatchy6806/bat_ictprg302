@@ -1,0 +1,68 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"sfml_add_library"
+		],
+		"files" : 
+		[
+			"libs/SFML-2.5.1/cmake/Macros.cmake",
+			"libs/SFML-2.5.1/src/SFML/Window/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 228,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 161,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "bin",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libs/SFML-2.5.1/lib/libsfml-window-d.2.5.1.dylib",
+				"libs/SFML-2.5.1/lib/libsfml-window-d.2.5.dylib"
+			],
+			"targetId" : "sfml-window::@b4ee185917b0665f0b9c",
+			"targetIndex" : 5,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "bin",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libs/SFML-2.5.1/lib/libsfml-window-d.dylib"
+			],
+			"targetId" : "sfml-window::@b4ee185917b0665f0b9c",
+			"targetIndex" : 5,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "libs/SFML-2.5.1/src/SFML/Window",
+		"source" : "libs/SFML-2.5.1/src/SFML/Window"
+	}
+}

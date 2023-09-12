@@ -5,6 +5,7 @@
 #include <iostream>
 
 #include <SFML/Window.hpp>
+#include "sprite.hpp"
 
 int main()
 {

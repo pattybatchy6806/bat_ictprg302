@@ -1,4 +1,15 @@
 "/Users/Student/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/Student/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/ninja/mac/ninja" -G Ninja -S /Users/Student/Documents/GitHub/bat_ictprg302 -B /Users/Student/Documents/GitHub/bat_ictprg302/cmake-build-debug
+CMake Warning (dev) at /Users/Student/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/231.9225.21/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (VORBIS)
+  does not match the name of the calling package (Vorbis).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  libs/SFML-2.5.1/cmake/Modules/FindVorbis.cmake:25 (find_package_handle_standard_args)
+  libs/SFML-2.5.1/cmake/Macros.cmake:279 (find_package)
+  libs/SFML-2.5.1/src/SFML/Audio/CMakeLists.txt:70 (sfml_find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /Users/Student/Documents/GitHub/bat_ictprg302/cmake-build-debug

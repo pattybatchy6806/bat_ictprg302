@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/Student/Documents/GitHub/bat_ictprg302/cmake-build-debug/libs/SFML-2.6.0/cmake_install.cmake")
+  include("/Users/Student/Documents/GitHub/bat_ictprg302/cmake-build-debug/libs/SFML-2.5.1/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
